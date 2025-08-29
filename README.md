@@ -22,6 +22,7 @@
 ---
 
 ## 📂 Project Structure 專案結構
+```
 etf-dividend-tracker/
 │
 ├── README.md ← 專案說明
@@ -43,3 +44,4 @@ etf-dividend-tracker/
 └── output/
 ├── figures/ ← 圖表輸出
 └── reports/ ← (選擇性) PDF 報告
+```
