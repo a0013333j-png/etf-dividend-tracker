@@ -22,3 +22,24 @@
 ---
 
 ## 📂 Project Structure 專案結構
+etf-dividend-tracker/
+│
+├── README.md ← 專案說明
+├── requirements.txt ← 需求套件 (pandas, matplotlib, yfinance, requests, bs4)
+│
+├── data/ ← 數據存放
+│ ├── dividends.csv ← 歷史配息 (ticker, date, dividend_per_share)
+│ ├── trades.csv ← 個人交易 (date, ticker, shares, price, fee, notes)
+│ └── prices/ ← (選擇性) 股價快照
+│
+├── notebooks/
+│ └── etf_dividend_tracker.ipynb ← Jupyter notebook 主程式
+│
+├── scripts/
+│ ├── fetch_dividends.py ← 抓配息
+│ ├── fetch_prices.py ← 抓股價
+│ └── update_tracker.py ← 整合更新
+│
+└── output/
+├── figures/ ← 圖表輸出
+└── reports/ ← (選擇性) PDF 報告
