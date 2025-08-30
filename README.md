@@ -52,7 +52,6 @@ etf-dividend-tracker/
    git clone https://github.com/your-username/etf-dividend-tracker.git
    cd etf-dividend-tracker
 
-
 2. Install dependencies:
 ```
    pip install -r requirements.txt
@@ -63,11 +62,10 @@ etf-dividend-tracker/
 4. Run the notebook:
    打開 notebooks/etf_dividend_tracker.ipynb，依序執行。
 
-
 ## 📊 Example Data 範例資料
    data/dividends.csv
-   ticker,date,dividend_per_share
-```
+   ```
+  ticker,date,dividend_per_share
    0050,2024-07-15,7.10
    0056,2024-12-18,1.20
    00878,2024-10-20,0.30
