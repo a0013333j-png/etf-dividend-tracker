@@ -57,7 +57,6 @@ etf-dividend-tracker/
 ```
    pip install -r requirements.txt
 ```
-
 3. Update data/trades.csv with your own trades.
    在 data/trades.csv 填入你的實際交易紀錄。
 
