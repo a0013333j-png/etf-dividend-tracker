@@ -55,38 +55,37 @@ etf-dividend-tracker/
 
 2. Install dependencies:
 ```
-pip install -r requirements.txt
+   pip install -r requirements.txt
 ```
 
 3. Update data/trades.csv with your own trades.
-在 data/trades.csv 填入你的實際交易紀錄。
+   在 data/trades.csv 填入你的實際交易紀錄。
 
 4. Run the notebook:
-打開 notebooks/etf_dividend_tracker.ipynb，依序執行。
+   打開 notebooks/etf_dividend_tracker.ipynb，依序執行。
 
 
 ## 📊 Example Data 範例資料
-data/dividends.csv
-ticker,date,dividend_per_share
+   data/dividends.csv
+   ticker,date,dividend_per_share
 ```
-0050,2024-07-15,7.10
-0056,2024-12-18,1.20
-00878,2024-10-20,0.30
+   0050,2024-07-15,7.10
+   0056,2024-12-18,1.20
+   00878,2024-10-20,0.30
 ```
 
 data/trades.csv
 ```
-date,ticker,shares,price,fee,notes
-2024-06-10,0050,5,150.0,10,首次投入
-2024-07-25,0056,20,30.5,10,逢低加碼
-2024-09-02,00878,30,17.8,10,定期定額
+   date,ticker,shares,price,fee,notes
+   2024-06-10,0050,5,150.0,10,首次投入
+   2024-07-25,0056,20,30.5,10,逢低加碼
+   2024-09-02,00878,30,17.8,10,定期定額
 ```
 
 
 ## ⚠️ Disclaimer 免責聲明
-
-This tool is for educational purposes only and not financial advice.
-本工具僅供學習與研究，非投資建議。請自行確認數據來源與投資風險。
+   This tool is for educational purposes only and not financial advice.
+   本工具僅供學習與研究，非投資建議。請自行確認數據來源與投資風險。
 
 
 ---
